@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+
+body{
+	background-color: #0080FF;
+	font-family: Tahoma;
+}
+
+.logeo{
+	width: 300px;
+	height: 300px;
+	margin: 100px auto;
+	border: 3px solid gray;
+	background-color: #045FB4;
+	border-radius: 20px;
+}
+#titulo{
+	font-size: 22px;
+	color: white;
+	font-weight: bold;
+	margin-left:40px;
+	display: block;
+	padding: 20px;
+}
+#lblUsuario,#lblContrasena{
+	position: relative;
+	font-size: 18px;
+	margin-left: 5%;
+	color: white;
+}
+#inpUsuario,#inpContrasena{
+	position: relative;
+	font-size: 18px;
+	margin-left: 5%;
+	margin-top: 5px;
+	
+}
+#btnEntrar{
+	padding: 5px;
+	font-family: Tahoma;
+	font-size: 15px;
+	margin-top: 40px;
+	margin-left: 115px;
+	background-color: #fff;
+	border-radius: 10px;
+}
+
